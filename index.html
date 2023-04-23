@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jacquelyn Bui">
+        <link rel="icon" href="images/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap&family=Sansita+Swashed:wght@400&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="scripts.js" defer></script>
+        <title>Nails 4 U</title>
+    </head>
+    <body>
+        <!--skip link-->
+        <a href="#main" id="skip">Skip to Main Content</a>
+        <header id="top">
+            <h1><a href="index.html">Nails 4 U</a></h1>
+            <nav id="nav-filter">
+                <h2 class="sr-only">Main Navigation</h2>
+                <!--mobile menu-->
+                <button id="navButton">
+                    <div class="button"></div>
+                    <div class="button"></div>
+                    <div class="button"></div>
+                </button>
+                <!--nav items-->
+                <ul class="hide">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <!--welcome section-->
+            <section id="welcome">
+                <div id="text">
+                    <h2>Welcome!</h2>
+                    <p>Nails 4 U is a local full service nail salon located in Maricopa, AZ that offers manicures, pedicures, gel nails, waxing, full sets, and much more! We take pride in having a clean environment and having a friendly staff that is here for you.</p>
+                    <p>Join our Nails 4 U family, book your first appointment!</p><a href="contact.html">Book</a>
+                </div>
+                <div id="images">
+                    <img id="img1" src="images/nails.jpg" alt="Hand with light beige nails with pink and white swirl designs.">
+                    <img id="img2" src="images/nail.jpg" class="hide" alt="Hand with dark brown and light brown sparkly nails.">
+                    <img id="img3" src="images/nail2.jpg" class="hide" alt="Hands with pink and blue nail designs.">
+                    <!--mobile buttons for images-->
+                    <div>
+                        <button id="btn1" class="active">1</button>
+                        <button id="btn2">2</button>
+                        <button id="btn3">3</button>
+                    </div>
+                </div>
+            </section>
+            <!--location section-->
+            <section id="location">
+                <h2>Location</h2>
+                <div id="location-grid">
+                    <!--address-->
+                    <div>
+                        <address id="address">
+                            20046 N John Wayne Pkwy<br>
+                            Maricopa, AZ 85139<br>
+                            (520) 568-2371
+                        </address>
+                    </div>
+                    <!--google map-->
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.7996620965578!2d-112.05134722368774!3d33.06174076937983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872ae52ad1f6e4bd%3A0x9c684ec8be666d79!2sNails%204%20U!5e0!3m2!1sen!2sus!4v1678410885561!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+            <!--hours section-->
+            <section id="hours">
+                <h2>Hours</h2>
+                <p>Come visit us during our opening hours!</p>
+                <!--hours table-->
+                <table>
+                    <tr>
+                        <th>Monday</th>
+                        <td>9 AM-7 PM</td>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <td>9 AM-7 PM</td>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <td>9 AM-7 PM</td>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <td>9 AM-7 PM</td>
+                    </tr>
+                    <tr>
+                        <th>Friday</th>
+                        <td>9 AM-7 PM</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td>9 AM-6 PM</td>
+                    </tr>
+                    <tr>
+                        <th class="no-border">Sunday</th>
+                        <td class="no-border">CLOSED</td>
+                    </tr>
+                </table>
+            </section>
+            <!--services section-->
+            <section id="services">
+                <h2>Services & Pricing</h2>
+                <p>The prices may vary depending on additional designs and requests.</p>
+                <div id="services-grid">
+                    <!--left column-->
+                    <section id="col1">
+                        <h3>Manicures</h3>
+                        <ul>
+                            <table>
+                                <tr>
+                                    <th><li>Basic Manicure</li></th>
+                                    <td>$22</td>
+                                </tr>
+                                <tr>
+                                    <th><li>Gel Manicure</li></th>
+                                    <td>$35</td>
+                                </tr>
+                                <tr>
+                                    <th><li>Gel Set</li></th>
+                                    <td>$50</td>
+                                </tr>
+                                <tr>
+                                    <th><li>Acrylic Set</li></th>
+                                    <td>$40</td>
+                                </tr>
+                                <tr>
+                                    <th><li>Dipping Powder</li></th>
+                                    <td>$40</td>
+                                </tr>
+                            </table>
+                        </ul>
+                    </section>
+                    <!--right column-->
+                    <section id="col2">
+                        <h3>Spa Pedicure</h3>
+                        <ul>
+                            <table>
+                                <tr>
+                                    <th><li>Spa Pedicure with Gel</li></th>
+                                    <td>$33</td>
+                                </tr>
+                                <tr>
+                                    <th><li>Traditional Spa Pedicure</li></th>
+                                    <td>$30</td>
+                                </tr>
+                                <tr>
+                                    <th><li>Crystal Scrub Spa Pedicure</li></th>
+                                    <td>$40</td>
+                                </tr>
+                                <tr>
+                                    <th><li>Spa Pedicure w/ Callus Remover</li></th>
+                                    <td>$45</td>
+                                </tr>
+                                <tr>
+                                    <th><li>Deluxe Spa Pedicure</li></th>
+                                    <td>$50</td>
+                                </tr>
+                            </table>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p><small>&copy; 2023 | Jacquelyn Bui<br>
+            Made for GIT480 Senior Project, not affiliated with Nails&nbsp;4&nbsp;U.</small></p>
+        </footer>
+    </body>
+</html>

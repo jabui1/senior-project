@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jacquelyn Bui">
+        <link rel="icon" href="images/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap&family=Sansita+Swashed:wght@400&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="scripts-contact.js" defer></script>
+        <title>Nails 4 U | Contact</title>
+    </head>
+    <body>
+        <!--skip link-->
+        <a href="#main" id="skip">Skip to Main Content</a>
+        <header>
+            <h1><a href="index.html">Nails 4 U</a></h1>
+            <nav id="nav-filter">
+                <h2 class="sr-only">Main Navigation</h2>
+                <!--mobile menu-->
+                <button id="navButton">
+                    <div class="button"></div>
+                    <div class="button"></div>
+                    <div class="button"></div>
+                </button>
+                <!--nav items-->
+                <ul class="hide">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <section id="appt">
+                <h2>Book an Appointment</h2>
+                <p>Fill out the form below to book an appointment with your preferred nail tech.</p>
+                <!-- contact form -->
+                <form id="form">
+                    <div id="form-grid">
+                        <!-- first name -->
+                        <div>
+                            <label for="fName">First Name<span class="required">*</span></label>
+                            <input type="text" id="fName" name="fName" class="default"><span></span>
+                        </div> 
+                        <!-- last name -->
+                        <div>
+                            <label for="lName">Last Name<span class="required">*</span></label>
+                            <input type="text" id="lName" name="lName" class="default"><span></span>
+                        </div>
+                        <!-- phone number -->
+                        <div>
+                            <label for="myPhone">Phone Number<span class="required">*</span></label>
+                            <input type="tel" id="myPhone" name="myPhone" class="default" placeholder="000-000-0000" autocomplete="tel"><span></span>
+                        </div>
+                        <!-- email address -->
+                        <div>
+                            <label for="myEmail">Email Address<span class="required">*</span></label>
+                            <input type="email" id="myEmail" name="myEmail" class="default" autocomplete="email"><span></span>
+                        </div>
+                        <!-- date -->
+                        <div>
+                            <label for="date">Date<span class="required">*</span></label>
+                            <input type="date" id="date" name="date" class="default"><span></span>
+                        </div>
+                        <!-- time -->
+                        <div>
+                            <label for="time">Time<span class="required">*</span></label>
+                            <input type="time" id="time" name="time" class="default" min="09:00" max="19:00"><span></span>
+                        </div>
+                    </div>
+                    <!--pick nail tech-->
+                    <fieldset>
+                        <legend>Who Do You Want to Book an Appointment With?<span class="required">*</span></legend>
+                        <div id="artist-grid">
+                            <!--no preference-->
+                            <input type="radio" name="nailArtist" id="noPref" checked>
+                            <label for="noPref">No Preference</label>
+                            <!--artist1-->
+                            <input type="radio" name="nailArtist" id="artist1">
+                            <label for="artist1">Ben</label>
+                            <!--artist2-->
+                            <input type="radio" name="nailArtist" id="artist2">
+                            <label for="artist2">Hannah</label>
+                            <!--artist3-->
+                            <input type="radio" name="nailArtist" id="artist3">
+                            <label for="artist3">John</label>
+                            <!--artist4-->
+                            <input type="radio" name="nailArtist" id="artist4">
+                            <label for="artist4">Kim</label>
+                            <!--artist5-->
+                            <input type="radio" name="nailArtist" id="artist5">
+                            <label for="artist5">Tammy</label>
+                            <!--artist6-->
+                            <input type="radio" name="nailArtist" id="artist6">
+                            <label for="artist6">Tran</label>
+                            <!--artist7-->
+                            <input type="radio" name="nailArtist" id="artist7">
+                            <label for="artist7">Vivian</label>
+                            <!--artist8-->
+                            <input type="radio" name="nailArtist" id="artist8">
+                            <label for="artist8">Yen</label>
+                        </div>
+                    </fieldset>
+                    <span></span>
+                    <!--submit button-->
+                    <input type="submit" id="mySubmit">
+                </form>
+                <p>Some other ways to contact us:<br>
+                    Phone: (520) 568-2371<br>
+                    Email: copanails4u@outlook.com
+                </p>
+            </section> 
+        </main>
+        <footer>
+            <p><small>&copy; 2023 | Jacquelyn Bui<br>
+            Made for GIT480 Senior Project, not affiliated with Nails&nbsp;4&nbsp;U.</small></p>
+        </footer>
+    </body>
+</html>
