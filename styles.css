@@ -234,6 +234,10 @@ main > section {
     width: 90%;
 }
 
+#address {
+    color: #000;
+}
+
 iframe {
     border-radius: 20px;
     position: relative;
@@ -253,6 +257,10 @@ iframe {
     border-bottom: 1px solid var(--pink);
 }
 
+#hours table tr:last-child th, #hours table tr:last-child td {
+    border-bottom: none;
+}
+
 #hours table th {
     padding: 0.5rem 1.5rem;
     text-align: left;
@@ -261,10 +269,6 @@ iframe {
 #hours table td {
     padding: 0.5rem 1.5rem;
     text-align: right;
-}
-
-.no-border {
-    border-bottom: none;
 }
 
 #services {
