@@ -1,8 +1,11 @@
+// mobile navigation menu
 function mobileNav() {
     document.querySelector("nav ul").classList.toggle("hide");
 	document.querySelector("#nav-filter").classList.toggle("fill");
 }
 
+// home page images buttons
+// display image 1
 function img1Display() {
     document.getElementById("img1").classList.remove("hide");
 	document.getElementById("img2").classList.add("hide");
@@ -13,6 +16,7 @@ function img1Display() {
 	document.getElementById("btn3").classList.remove("active");
 }
 
+// display image 2
 function img2Display() {
     document.getElementById("img1").classList.add("hide");
 	document.getElementById("img2").classList.remove("hide");
@@ -23,6 +27,7 @@ function img2Display() {
 	document.getElementById("btn3").classList.remove("active");
 }
 
+// display image 3
 function img3Display() {
     document.getElementById("img1").classList.add("hide");
 	document.getElementById("img2").classList.add("hide");

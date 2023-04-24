@@ -1,8 +1,11 @@
+// mobile navigation menu
 function mobileNav() {
     document.querySelector("nav ul").classList.toggle("hide");
 	document.querySelector("#nav-filter").classList.toggle("fill");
 }
 
+
+//form validation
 function validateForm(event) {
 	event.preventDefault();
 	//regex
