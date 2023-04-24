@@ -436,7 +436,7 @@ input[type="submit"]:hover {
     cursor: pointer;
 }
 
-#appt p {
+form + p {
     text-align: center;
 }
 
